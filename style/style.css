@@ -1,0 +1,324 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Roboto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header {
+    padding: 30px;
+    background-color: #000000;
+}
+
+header ul {
+    width: 370px;
+    margin-right: 720px;
+}
+
+
+
+
+header ul li {
+    padding: 15px 0;
+    position: relative;
+}
+
+header ul a {
+    position: relative;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+header li::after {
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+header li:hover::after {
+    width: 100%;
+}
+
+
+h1 {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+    text-indent: -999999999px;
+}
+h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+main {
+    padding: 50px 138px 22px 110px;
+}
+
+.line {
+    width: 1200px;
+}
+
+h2 {
+    margin: 50px 0 50px 0px;
+    font-weight: 100;
+}
+
+article {
+    width: 300px;
+    height: 270px;
+    position: relative;
+}
+
+section {
+    width: 300px;
+    height: 250px;
+    border: 1px solid #000000;
+    background-image: url(../img/sound1.png);
+    background-repeat: repeat-x; 
+    background-size: 25%;
+    background-position-y: 80px;
+}
+
+
+
+
+ .likeimg {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url(../img/like1.png);
+    position: absolute;
+    top: -4px;
+    right: 0;
+} 
+
+.likeimg:hover {
+    cursor: pointer;
+    background-image: url(../img/like2.png);
+}
+
+
+.likeimg img {
+    width: 100%;
+    
+}
+
+
+
+article h2 a {
+    position: absolute;
+    top: 260px;
+    left: 0;
+    color: #000000;
+    font-size: 12px;
+
+}
+
+
+.artists  {
+    position: relative;
+    top: 150px;
+    left: 18px; 
+}
+
+section h2 {
+    font-size: 18px;
+}
+
+section p {
+    font-size: 14px;
+}
+
+
+
+section:hover {
+    box-shadow: 0 0 10px #000000;
+}
+
+article h2 a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.line1 h2 {
+    margin: 22px 0 22px 0px;
+}
+
+
+.margin {
+    margin-bottom: 50px;
+}
+
+.uprodidi {
+    margin-bottom: 100px;
+}
+
+.socialmediaicons {
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 300px;
+}
+
+ .fb {
+    background-image: url(../img/fb2.png);
+    width: 100%;
+    height: 50px;   
+}
+
+.fb:hover {
+    background-image: url(../img/facebook.png);
+}
+
+ .inst {
+    background-image: url(../img/insta2.png);
+    width: 100%;
+    height: 50px;
+
+}
+.inst:hover {
+    background-image: url(../img/instagram.png);
+}
+
+
+
+
+footer {
+    background-color: #000000;
+}
+
+.footer {
+    flex-direction: column;
+    margin-top: 28px;
+    margin-bottom: 50px;   
+    height: 360px;
+}
+
+ .footerlogo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+
+
+
+footer nav ul {
+    width: 100px;
+    margin-top: 26px;
+    line-height: 30px;
+    text-align: center;
+}
+
+footer nav ul a {
+    font-size: 18px;
+    color: #ffffff;
+} 
+
+footer li {
+    position: relative;
+}
+
+footer li::after {
+    content: "";
+    width: 0px;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer li:hover::after {
+    width: 100%;
+}
+
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+.playlistebi {
+    display: flex;
+}
+
+.playlistebi h3 {
+    margin: 18px 0 50px 20px;
+}
+
+.playlistebi ul {
+    margin-left: 20px;
+}
+
+
+.playlistebi li a {
+    color: #000000;
+    line-height: 26px;
+}
+
+.play-pirveli  {
+    margin-right: 160px;
+    width: 346px;
+    height: 400px;
+}
+
+.play-meore {
+    margin-left: 24px;
+    width: 346px;
+    height: 400px;
+}
+
+
+
+
+.soundcontainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 110px;
+    margin-top: 50px;
+}
+
+
+.play-pirveli:hover {
+  
+    background-color: #E5E5E5;
+    box-shadow: 0 0 20px #E5E5E5;
+}
+
+.thanks {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom:142px ;
+}
